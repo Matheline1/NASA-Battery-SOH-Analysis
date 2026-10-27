@@ -14,7 +14,9 @@
 3、数据质量：真实传感器数据（如阻抗复数、放电末端静置电流、异常0容量）必须经过严格清洗，否则会导致趋势线严重失真。
 
 #可视化结果
-1、充放电物理过程仿真 <img width="1275" height="57" alt="image" src="https://github.com/user-attachments/assets/2d4ed8d3-9da4-46eb-87d0-39cf0e080e88" />
+1、充放电物理过程仿真
+![充放电物理过程仿真](https://github.com/user-attachments/assets/2d4ed8d3-9da4-46eb-87d0-39cf0e080e88)
+
 
 
 
