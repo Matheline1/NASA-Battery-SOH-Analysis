@@ -15,7 +15,8 @@
 
 #可视化结果
 1、充放电物理过程仿真
-![充放电物理过程仿真](https://github.com/user-attachments/assets/2d4ed8d3-9da4-46eb-87d0-39cf0e080e88)
+<img width="1371" height="681" alt="image" src="https://github.com/user-attachments/assets/784d025d-1b00-409a-b661-bdf0b445c097" />
+
 
 
 
