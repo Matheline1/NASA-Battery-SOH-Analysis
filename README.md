@@ -1,5 +1,3 @@
-<img width="1378" height="670" alt="image" src="https://github.com/user-attachments/assets/9ec57edf-2afd-45f2-a1ef-64adfbd3b46a" /># NASA-Battery-SOH-Analysis
-
 #项目介绍
 本项目基于 NASA 锂离子电池公开数据集，使用 Python 进行深度的数据清洗与特征工程。项目贯穿了从微观单次充放电过程到宏观全生命周期老化的分析，核心聚焦电池的两大关键指标：容量衰减（SOH） 与 内阻抗增长（Re/Rct），旨在从海量、含噪的真实传感器数据中提取电池退化规律。
 
