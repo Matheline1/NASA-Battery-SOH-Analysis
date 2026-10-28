@@ -1,4 +1,4 @@
-# NASA-Battery-SOH-Analysis
+<img width="1378" height="670" alt="image" src="https://github.com/user-attachments/assets/9ec57edf-2afd-45f2-a1ef-64adfbd3b46a" /># NASA-Battery-SOH-Analysis
 
 #项目介绍
 本项目基于 NASA 锂离子电池公开数据集，使用 Python 进行深度的数据清洗与特征工程。项目贯穿了从微观单次充放电过程到宏观全生命周期老化的分析，核心聚焦电池的两大关键指标：容量衰减（SOH） 与 内阻抗增长（Re/Rct），旨在从海量、含噪的真实传感器数据中提取电池退化规律。
@@ -17,7 +17,13 @@
 1、充放电物理过程仿真
 <img width="1371" height="681" alt="image" src="https://github.com/user-attachments/assets/784d025d-1b00-409a-b661-bdf0b445c097" />
 <img width="1382" height="692" alt="image" src="https://github.com/user-attachments/assets/d23816a5-586e-4aca-9b64-3ac94e6c3581" />
-
+采用安时积分法计算单次放电容量，解决放电末端“极化恢复”导致的电压回弹现象。
+2、全生命周期容量衰减趋势
+<img width="1378" height="670" alt="image" src="https://github.com/user-attachments/assets/fe53e362-c963-434d-bea5-2bc8aedf5a69" />
+剔除 0 值异常并应用滑动平均（Rolling Mean），还原电池真实的容量衰减主干（1.67Ah → 1.15Ah）。
+3、阻抗演化深度分析 (Re vs Rct)
+<img width="1382" height="680" alt="image" src="https://github.com/user-attachments/assets/f9337b4b-422e-41da-8996-533297a049b5" />
+处理复杂复数并过滤极端噪声，揭示 Re 与 Rct 的强共线性，深度解释锯齿状波动（温度与SOC影响）及寿命末期 Rct 异常下降的物理机理。
 
 
 
